@@ -2,12 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
+        <Nullable>disable</Nullable>
         <Title>EntityFramework.BulkExtensions</Title>
         <Description>Bulk operations extension library for Entity Framework.</Description>
         <Product>EntityFramework.BulkExtensions</Product>
         <Copyright>Copyright © Tiago L. da Nóbrega 2016</Copyright>
-        <Version>1.0.0.0</Version>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Version>1.4.3.0</Version>
+        <AssemblyVersion>1.4.3.0</AssemblyVersion>
         <PackageLicenseUrl>https://github.com/tiagoln/EntityFramework.BulkExtensions/blob/master/LICENSE</PackageLicenseUrl>
         <PackageProjectUrl>https://github.com/tiagoln/EntityFramework.BulkExtensions</PackageProjectUrl>
         <Authors>Tiago L. da Nóbrega</Authors>
@@ -17,9 +18,5 @@
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="ErikEJ.EntityFramework.SqlServer" Version="6.6.4" />
-        <PackageReference Include="EntityFramework.MappingAPI" Version="6.1.0.9" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Properties" />
     </ItemGroup>
 </Project>
