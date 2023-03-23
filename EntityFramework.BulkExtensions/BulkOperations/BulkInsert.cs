@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Core;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Linq;
 using EntityFramework.BulkExtensions.Extensions;
 using EntityFramework.BulkExtensions.Helpers;
